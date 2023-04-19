@@ -9,7 +9,12 @@
 </head>
 <body>
 <table id="listaus">
-	<thead>			
+	<thead>		
+		<tr>
+			<th>Hakusana:</th>
+			<th colspan="3"><input type="text" id="hakusana"></th>
+			<th><input type="button" value="hae" id="hakunappi" onclick="haeAsiakkaat()"></th>
+		</tr>
 		<tr>
 			<th>Etunimi</th>
 			<th>Sukunimi</th>
